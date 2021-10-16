@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+div.box2 {
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  font-weight: bold;
+  color: #000000; /*文字色*/
+  background: #fff;
+  border: solid 3px #6091d3; /*線*/
+  border-radius: 10px; /*角の丸み*/
+}
+div.box3 {
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  font-weight: bold;
+  color: #000000; /*文字色*/
+  background: #fff;
+  border: solid 3px #6091d3; /*線*/
+  border-radius: 10px; /*角の丸み*/
+  text-align: center;
+}
