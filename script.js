@@ -38,7 +38,7 @@ let timer = document.getElementById("timer");
 function tick() {
   time = time + 1;
   timer.textContent = time;
-  if (time % 3 == 0 || String(time).match(/3/)) {
+  if (time % 3 == 0 || String(time).match("3")) {
     timer.style.color = "red";
   } else {
     timer.style.color = "black";
