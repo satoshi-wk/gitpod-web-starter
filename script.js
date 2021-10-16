@@ -38,6 +38,11 @@ let timer = document.getElementById("timer");
 function tick() {
   time = time + 1;
   timer.textContent = time;
+  if (time % 3 == 0 || String(time).match(/3/)) {
+    timer.style.color = "red";
+  } else {
+    timer.style.color = "black";
+  }
 }
 function start() {
   timerId = setInterval(tick, 1000);
@@ -48,6 +53,7 @@ function stop() {
 function reset() {
   time = 0;
   timer.textContent = time;
+  timer.style.color = "black";
 }
 
 let startButton = document.getElementById("start-button");
